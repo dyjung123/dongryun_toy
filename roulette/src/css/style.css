@@ -1,0 +1,36 @@
+.container {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.row {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pannel {
+  width: 1000px;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+
+#pin {
+  width: 0;
+  height: 0;
+  top: 170px;
+  left: calc(50% - 16px);
+  position: absolute;
+  border-radius: 32px 32px 0 0;
+  border-top: 70px solid crimson;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 0;
+  z-index: 1;
+}
